@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html ng-app='iscroll'>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="MobileOptimized" content="320" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" >
+    <meta name="apple-mobile-web-app-capable" content="yes" >
+    <title>Pull to refresh for iscroll5</title>
+    <link rel="stylesheet" href="style.css" />
+    <script data-require="angular.js@1.2.x" src="https://code.angularjs.org/1.2.22/angular.js" data-semver="1.2.22"></script>
+    <script src="iscroll.js"></script>
+    <script src="pull-to-refresh.js"></script>
+    <script type="text/javascript" src="iScrollService.js"></script>
+	<script type="text/javascript" src="iScrollDirective.js"></script>
+    <script src="app.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+<body ng-controller="myCtrl">
+<div class='header'>Header</div>
+    
+<div pull-to-refresh="onReload()" name='myWrapper'></div>
+<div class="scroll" i-scroll='myWrapper'>
+    <ul class="list">
+        <li>
+            <h1>A</h1>
+            <ul>
+                <li>Aa</li>
+                <li>Aa</li>
+                <li>Aa</li>
+                <li>Aa</li>
+                <li>Aa</li>
+            </ul>
+        </li>
+        <li>
+            <h1>B</h1>
+            <ul>
+                <li>Bb</li>
+                <li>Bb</li>
+                <li>Bb</li>
+                <li>Bb</li>
+                <li>Bb</li>
+                <li>Bb</li>
+            </ul>
+        </li>
+        <li>
+            <h1>C</h1>
+            <ul>
+                <li>Cc</li>
+                <li>Cc</li>
+                <li>Cc</li>
+                <li>Cc</li>
+                <li>Cc</li>
+                <li>Cc</li>
+            </ul>
+        </li>
+        <li>
+            <h1>D</h1>
+            <ul>
+                <li>Dd</li>
+                <li>Dd</li>
+                <li>Dd</li>
+                <li>Dd</li>
+            </ul>
+        </li>
+        <li>
+            <h1>E</h1>
+            <ul>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+                <li>Ee</li>
+            </ul>
+        </li>        <li>
+            <h1>F</h1>
+            <ul>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+                <li>Ff</li>
+            </ul>
+        </li>        <li>
+            <h1>G</h1>
+            <ul>
+                <li>Gg</li>
+            </ul>
+        </li>        <li>
+            <h1>H</h1>
+            <ul>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+                <li>Hh</li>
+            </ul>
+        </li>        <li>
+            <h1>I</h1>
+            <ul>
+                <li>Ii</li>
+                <li>Ii</li>
+                <li>Ii</li>
+            </ul>
+        </li>        <li>
+            <h1>J</h1>
+            <ul>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+                <li>Jj</li>
+            </ul>
+        </li>        <li>
+            <h1>K</h1>
+            <ul>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+                <li>Kk</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+</body>
+</html>
