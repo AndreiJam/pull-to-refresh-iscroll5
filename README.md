@@ -6,9 +6,11 @@ This plugin give you simple the way to add pull-to-refresh in your application
 Example based on AngularJS 1.x but it can be easily moved to any framework - just look inside the code.
 
 # Example
-Open this link [limurezzz.github.io](http://limurezzz.github.io) on your modile device or enable mobile mode in your browser (refresh page after moving to mobile mode). Pull the list down to see pull-to-refresh indicator.
+1) Open this link [limurezzz.github.io](http://limurezzz.github.io) on your modile device or enable mobile mode in your browser [How to do it in Chrome](https://developers.google.com/web/tools/chrome-devtools/device-mode/).
+2) Refresh page after moving to mobile mode. 
+3) Pull the list down to see pull-to-refresh indicator.
 
-[How to do it in Chrome](https://developers.google.com/web/tools/chrome-devtools/device-mode/)
+
 
 # License (MIT)
 Copyright (c) 2012-2016 Andrei Yemialyanchyk
