@@ -8,9 +8,11 @@ Example based on AngularJS 1.x but it can be easily moved to any framework - jus
 # Example
 1) Open this link [limurezzz.github.io](http://limurezzz.github.io) on your modile device or enable mobile mode in your browser ([How to do it in Chrome](https://developers.google.com/web/tools/chrome-devtools/device-mode/)).
 
-2) Refresh page after moving to mobile mode. 
+2) Refresh page after moving to mobile mode
 
-3) Pull the list down to see pull-to-refresh indicator.
+3) Pull the list down to see pull-to-refresh indicator
+
+4) Pay attention that there is no real data loading - just pull-to-refresh visualization
 
 
 
