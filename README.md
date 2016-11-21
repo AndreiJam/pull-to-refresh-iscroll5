@@ -1,5 +1,5 @@
 # Pull to refresh for iscroll 5
-[iscroll](http://iscrolljs.com) by 2014 Matteo Spinelli ([cubiq.org](http://cubiq.org)) is a wonderfill library to simulate scrolling mobile experience in your web application.
+[iscroll](http://iscrolljs.com) by 2014 Matteo Spinelli ([cubiq.org](http://cubiq.org)) is a wonderfull library to simulate scrolling mobile experience in your web application.
 On the moment of writing this plugin there were no [pull-to-refresh](https://en.wikipedia.org/wiki/Pull-to-refresh) feature which is very popular nowadays.
 
 This plugin gives you a simple way to add pull-to-refresh in your application.
