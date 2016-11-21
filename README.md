@@ -1,8 +1,8 @@
 # Pull to refresh for iscroll 5
-[iscoll](http://iscrolljs.com) by 2014 Matteo Spinelli, [cubiq.org](http://cubiq.org) is a wonderfill library to simulate scrolling mobile experience in your web application.
-On the moment of writing this plugin there were no pull-to-refresh feature  which is very popular nowadays.
+[iscroll](http://iscrolljs.com) by 2014 Matteo Spinelli ([cubiq.org](http://cubiq.org)) is a wonderfill library to simulate scrolling mobile experience in your web application.
+On the moment of writing this plugin there were no [pull-to-refresh](https://en.wikipedia.org/wiki/Pull-to-refresh) feature which is very popular nowadays.
 
-This plugin give you simple the way to add pull-to-refresh in your application
+This plugin gives you a simple way to add pull-to-refresh in your application.
 Example based on AngularJS 1.x but it can be easily moved to any framework - just look inside the code.
 
 # Example
